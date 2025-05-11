@@ -3,7 +3,7 @@ Three-Band Hubbard Model for Cuprates — Tight-Binding & Green’s Function Ana
 This Python project implements a three-band Hubbard model for cuprates using a tight-binding approach for U=0 (Hubbard parameter).
 It describes a 2D lattice composed of copper-oxygen clusters (N-mers) and includes orbital degrees of freedom
 (Cu 3d and O 2p orbitals: d, px, py) with various hopping terms: nearest-neighbor copper-oxygen hopping $\( t_{pd} \)$,
-oxygen-oxygen hopping \( t_{pp} \), and next-nearest-neighbor hopping $\( t_{pp'} \)$. 
+oxygen-oxygen hopping $\( t_{pp} \)$, and next-nearest-neighbor hopping $\( t_{pp'} \)$. 
 The model also supports spatial modulation of the on-site energies to simulate structural or electronic ordering (e.g. CDWs), including,
 yet not limited to, local effects on on-site copper energies (cosine-modulation) due to apical oxygen displacement.
 The code is easily adaptable to check for other local effects on the hamiltonian parameters.
