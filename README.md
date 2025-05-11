@@ -9,7 +9,7 @@ yet not limited to, local effects on on-site copper energies (cosine-modulation)
 The code is easily adaptable to check for other local effects on the hamiltonian parameters.
 
 Key Features:
-- Implements a realistic three-band model for high-$\( T_c \)$ cuprate superconductors
+- Implements a realistic three-band model for high-$T_c$ cuprate superconductors
 - Includes tight-binding parameters: $\( t_{pd} \)$, $\( t_{pp} \)$, $\( t_{pp'} \)$
 - Allows spatial modulation of $\( \epsilon_d \)$ (on-site copper energy) via cosine profile
 - Constructs momentum-resolved Hamiltonians $\( H(k_x, k_y) \)$ over a 2D Brillouin zone
