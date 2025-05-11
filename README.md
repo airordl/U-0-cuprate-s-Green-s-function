@@ -10,8 +10,8 @@ The code is easily adaptable to check for other local effects on the hamiltonian
 
 Key Features:
 - Implements a realistic three-band model for high-$\( T_c \)$ cuprate superconductors
-- Includes tight-binding parameters: $\( t_{pd} \)$, $\( t_{pp} \)$,$ \( t_{pp'} \)$
-- Allows spatial modulation of \( \epsilon_d \) (on-site copper energy) via cosine profile
+- Includes tight-binding parameters: $\( t_{pd} \)$, $\( t_{pp} \)$, $\( t_{pp'} \)$
+- Allows spatial modulation of $\( \epsilon_d \)$ (on-site copper energy) via cosine profile
 - Constructs momentum-resolved Hamiltonians $\( H(k_x, k_y) \)$ over a 2D Brillouin zone
 - Computes eigenvalues and eigenvectors to extract band structures
 - Calculates retarded Green’s functions $\( G(k, \omega) \)$, then integrates over k to obtain:
